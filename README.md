@@ -8,7 +8,7 @@ agent can exit the Wumpus world by reaching room [4,4]. The wumpus world contain
 exactly one Wumpus and one pit. There will be a breeze in the rooms adjacent to the
 pit, and there will be a stench in the rooms adjacent to Wumpus.
 
-![Wumpus World Representation](./wumpusworld.PNG)
+![Wumpus World Representation](./images/wumpusworld.PNG)
 
 This is a python program that uses propositional logic sentences to check which rooms
 are safe. The inference is drawn using the DPLL algorithm with 4 heuristics: Early termination, Pure symbol heuristic, Unit clause heuristic and Degree heuristic. 
